@@ -1,5 +1,7 @@
+##Parallel Graph Traversal
 This project implements a parallel depth-first search (DFS) traversal of a graph using a thread pool. The goal is to efficiently explore the graph and calculate the sum of values associated with visited nodes. The program utilizes multi-threading to process nodes concurrently, improving the overall execution time.
 
+##Implementation
 The project is implemented in C using the Pthreads library for parallel processing. It consists of several key components:
 
 os_graph: Contains functions for creating a graph data structure from an input file.
